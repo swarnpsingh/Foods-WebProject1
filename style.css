@@ -189,3 +189,62 @@ ul{
 .menu-price{
     color: var(--secondary-text-color);
 }
+
+/* service-section */
+.services-section{
+    margin-top: 80px;
+}
+
+.service-items{
+    background: none;
+    margin-top: 20px;
+}
+
+.service-items h3{
+    color: var(--secondary-text-color);
+}
+
+.service-items p{
+    color: var(--primary-text-color);
+}
+
+/* cta-section */
+.cta-section{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.cta-section h2{
+    color: var(--accent-color);
+}
+
+.cta-items{
+    background-color: var(--primary-text-color);
+    border-radius: 6px;
+    padding: 60px;
+}
+
+.cta-button{
+    padding: 10px 90px;
+    margin-top: 20px;
+}
+
+/* footer-section */
+footer{
+    padding-block: 80px;
+}
+
+.footer-section{
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.footer-items{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-items hr{
+    color: var(--secondary-text-color);
+}
