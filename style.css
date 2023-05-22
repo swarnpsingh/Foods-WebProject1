@@ -119,10 +119,12 @@ ul{
 .hero-texts h1{
     color: var(--secondary-text-color);
     margin-bottom: 10px;
+    margin-left: 0;
 }
 
 .hero-texts p{
     margin-bottom: 20px;
+    padding-left: 0;
 }
 
 .hero-image img{
