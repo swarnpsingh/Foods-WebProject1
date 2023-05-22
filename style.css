@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color: #fdede7;
+    --secondary-text-color: #ff8346;
+    --accent-color: #1f1d2c;
+    /* --accent-color-dark: ; */
+    --padding-inline-section: 20px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--accent-color);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Roboto';
+    font-size: 1.25rem;
+    color: var(--primary-text-color);
+    line-height: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+/* utilities */
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.hover-links{
+    color: var(--primary-text-color);
+}
+
+.hover-links:hover{
+    color: var(--secondary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.primary-button{
+    background-color: var(--secondary-text-color);
+    border-radius: 6px;
+    color: var(--primary-text-color);
+    padding: 5px var(--padding-inline-section);
+    box-shadow: 0 0 2px #333;
+    transition: 0.2s ease-out;
+}
+
+.primary-button:hover{
+    background-color: var(--primary-text-color);
+    border: 1px solid var(--secondary-text-color);
+    color: var(--accent-color);
+}
+
+/* nav-bar */
+.navigation-section{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.company-heading{
+    color: var(--secondary-text-color);
+}
+
+.nav-links{
+    flex-basis: 730px;
+}
+
+.nav-links ul{
+    gap: 40px;
+    justify-content: end;
+}
+
+/* hero-section */
+.hero-section{
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.hero-texts{
+    max-width: 40vw;
+}
+
+.hero-texts h1{
+    color: var(--secondary-text-color);
+    margin-bottom: 10px;
+}
+
+.hero-texts p{
+    margin-bottom: 20px;
+}
+
+.hero-image img{
+    width: 400px;
+}
+
+/* about-section */
+.about-section{
+    justify-content: left !important;
+}
+
+.about-image{
+    width: 300px !important;
+    margin-right: 100px;
+}
+
+.about-texts h4{
+    color: var(--secondary-text-color);
+}
